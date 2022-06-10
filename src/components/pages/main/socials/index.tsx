@@ -11,7 +11,7 @@ const Socials = () => {
         <h2 className="text-center text-gray-100 font-bold text-2xl">
           {socials.value}
         </h2>
-        <div className="pt-12 grid desktop:grid-cols-4 grid-cols-2">
+        <div className="pt-12 grid desktop:grid-cols-4 gap-y-4 desktop:gap-y-0 grid-cols-2">
           {socialItems.map(({ title, href, img }) => {
             return (
               <div className="flex justify-center">
